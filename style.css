@@ -1,0 +1,126 @@
+/* Custom CSS */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #141414;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+/* Section Styles */
+.features-list,
+.register-form,
+.pricing-table {
+  background-color: #181818;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.features-list:hover,
+.register-form:hover,
+.pricing-table:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Pricing Card Styles */
+.pricing-table {
+  background-color: #202020;
+  color: white;
+}
+
+.card {
+  background-color: #333;
+  border: none;
+}
+
+.card-body ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.text-warning {
+  color: #1ed760 !important;
+}
+
+.text-danger {
+  color: #e50914 !important;
+}
+
+.text-info {
+  color: #0071eb !important;
+}
+
+/* Button Styles */
+.btn-custom {
+  background-color: #e50914;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #f40612;
+  transform: scale(1.05);
+}
+
+.btn-warning {
+  background-color: #1ed760;
+  color: #000;
+}
+
+.btn-warning:hover {
+  background-color: #17a64d;
+}
+
+.btn-danger {
+  background-color: #e50914;
+  color: #fff;
+}
+
+.btn-danger:hover {
+  background-color: #d40812;
+}
+
+.btn-info {
+  background-color: #0071eb;
+  color: #fff;
+}
+
+.btn-info:hover {
+  background-color: #005bb5;
+}
+
+/* Typography */
+h1,
+h2 {
+  color: #e50914;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.features-list {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.features-list li {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+/* Table Styles */
+table {
+  border: none;
+}
+
+th,
+td {
+  color: #fff;
+  padding: 10px;
+  border: none;
+}
